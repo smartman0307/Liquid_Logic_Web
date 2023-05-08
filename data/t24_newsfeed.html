@@ -1,0 +1,150 @@
+
+/* eslint-disable strict */
+( function() {
+  
+  $( document ).ready( function() {
+    var $grid = $( '.mainprojects .projects' );
+  
+    // layout Isotope after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.isotope( 'layout' );
+    } );
+    
+    // Isotope
+    var isotopePostType, isotopeNumResults = 0, isotopeResultsPerPage = 6, isotopeVisibleLimit = isotopeResultsPerPage,
+    $feedGrid = $( '.newsfeedmain-inner,.newsfeedvirtualevents-inner' )
+    .on( 'arrangeComplete', function( e, filteredItems ) { // NOTE must be before isotope
+      
+      $( filteredItems.map( function( i ) { return i.element; } ) )
+      .css( 'height', 'initial' ) // Reset after previous matchHeight
+      .matchHeight( {
+        byRow: true
+      } );
+
+    } )
+    .isotope( {
+      itemSelector: '.newsstory',
+      layoutMode: 'fitRows',
+      filter: function() {
+        var $this = $( this ),
+        res = ( isotopePostType ? $this.hasClass( isotopePostType ) : true );
+    
+        if( res ) {
+          isotopeNumResults++; // Make sure to reset this before filterIsotope() is called
+          $this.addClass( 'searchresult' );
+          
+          if( isotopeNumResults > isotopeVisibleLimit ) {
+            res = false;
+          }
+          else {
+            $( this ).find( 'img' ).each( function() {
+              $( this ).attr( 'src', $( this ).data( 'src' ) );
+            } );
+          }
+          
+        }
+        else {
+          $this.removeClass( 'searchresult' );
+        }
+    
+        return res;
+      }
+    } );
+
+    // bind filter button click
+    $( '.newsfilter .filteroptions' ).on( 'click', '.button', function(e) {
+      e.preventDefault();
+      var $this = $( this );
+
+      // Toggle selected
+      if( $this.hasClass( 'selected' ) ) {
+        $this.removeClass( 'selected' );
+        isotopePostType = undefined;
+      }
+      else {
+        $this.parents( '.button-group' ).find( '.selected' ).removeClass( 'selected' );
+        $this.addClass( 'selected' );
+        isotopePostType = $this.data( 'filter' );
+      }
+
+      isotopeVisibleLimit = isotopeResultsPerPage; // Reset limit#
+      isotopeNumResults = 0; // Reset
+
+      $feedGrid.isotope( 'arrange' );
+
+      if( $feedGrid.data( 'isotope' ).filteredItems.length ) {
+        $( '.noresults' ).hide();
+
+        if( isotopeNumResults > isotopeVisibleLimit ) { // numResults includes the matched results which are hidden
+          $( '.loadmore' ).show();
+        }
+        else {
+          $( '.loadmore' ).hide();
+        }
+
+      }
+      else {
+        $( '.noresults' ).show();
+        $( '.loadmore' ).hide();
+      }
+
+    } );
+
+    $( window ).on( 'hashchange', onHashchange );
+
+    $( '.loadmore' )
+    // .not( '.newsfeedvirtualevents .loadmore' ) Now using isotope on both - MH 26/08/21
+    .on( 'click', function( e ) {
+      e.preventDefault();
+      isotopeVisibleLimit += isotopeResultsPerPage;
+      isotopeNumResults = 0; // Reset
+      $feedGrid.isotope( 'arrange' );
+
+      if( isotopeNumResults > isotopeVisibleLimit ) { // numResults includes the matched results which are hidden
+        $( '.loadmore' ).show();
+      }
+      else {
+        $( '.loadmore' ).hide();
+      }
+      
+    } );
+    
+    /* $( '.newsfeedvirtualevents .loadmore' ).on( 'click', function( e ) {
+      e.preventDefault();
+      $( '.hidden' ).first().fadeIn( 200 );
+      $( '.hidden' ).first().removeClass( 'hidden' );
+      
+      $( '.newsstory' )
+      .css( 'height', 'initial' ) // Reset after previous matchHeight
+      .matchHeight( {
+        byRow: true
+      } );
+
+      if( !$( '.hidden' ).length ) {
+        $( '.loadmore' ).hide();
+      }
+
+    } ); */
+
+    onHashchange();
+  } );
+
+  function getHashFilter() {
+    // get filter=filterName
+    var matches = location.hash.match( /filter=([^&]+)/i ),
+    hashFilter = matches && matches[ 1 ];
+    return hashFilter && decodeURIComponent( hashFilter );
+  }
+
+  function onHashchange() {
+    
+    var hashFilter = getHashFilter();
+    
+    if( !hashFilter ) {
+      return;
+    }
+    
+    $( 'a.button[data-filter="' + hashFilter + '"]' ).first().click();
+  }
+
+} )();

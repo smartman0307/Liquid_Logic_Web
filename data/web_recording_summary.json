@@ -1,0 +1,877 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/webp"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/font-woff"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 23,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jun-02-2022",
+    "RecordingDuration": 256187,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1654170114,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1486551,
+    "TotalBytesSent": 53120,
+    "TotalRequests": 62,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "liquidlogic.co.uk",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.242.172.24",
+          "IncludeInScript": true,
+          "Name": "www.liquidlogic.co.uk",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 618,
+              "HttpStatus": 301,
+              "Size": 0,
+              "URL": "http://www.liquidlogic.co.uk/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.242.172.24",
+          "IncludeInScript": true,
+          "Name": "www.liquidlogic.co.uk",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1210,
+              "HttpStatus": 200,
+              "Size": 1056,
+              "URL": "https://www.liquidlogic.co.uk/images/favicon.png?v=2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 1206,
+              "HttpStatus": 200,
+              "Size": 155,
+              "URL": "https://www.liquidlogic.co.uk/css/print.css?v=6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 1187,
+              "HttpStatus": 200,
+              "Size": 9160,
+              "URL": "https://www.liquidlogic.co.uk/images/intro-wrap.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1151,
+              "HttpStatus": 200,
+              "Size": 4833,
+              "URL": "https://www.liquidlogic.co.uk/images/glassdoor-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 1148,
+              "HttpStatus": 200,
+              "Size": 30499,
+              "URL": "https://www.liquidlogic.co.uk/images/company_onetowatch.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1145,
+              "HttpStatus": 200,
+              "Size": 3086,
+              "URL": "https://www.liquidlogic.co.uk/images/footer-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1143,
+              "HttpStatus": 200,
+              "Size": 9282,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-33-823.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 15,
+              "EventId": 1141,
+              "HttpStatus": 200,
+              "Size": 50486,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-33-870.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 1134,
+              "HttpStatus": 200,
+              "Size": 31594,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-33-718.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 15,
+              "EventId": 1117,
+              "HttpStatus": 200,
+              "Size": 29896,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1760.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1115,
+              "HttpStatus": 200,
+              "Size": 40154,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1813.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 1111,
+              "HttpStatus": 200,
+              "Size": 34684,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1807.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 32,
+              "EventId": 1109,
+              "HttpStatus": 200,
+              "Size": 30724,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1818.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 32,
+              "EventId": 1107,
+              "HttpStatus": 200,
+              "Size": 18300,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1827.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 1104,
+              "HttpStatus": 200,
+              "Size": 15628,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-19-1756.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 1092,
+              "HttpStatus": 200,
+              "Size": 9596,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-34-1803.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1089,
+              "HttpStatus": 200,
+              "Size": 19116,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-34-1695.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 1087,
+              "HttpStatus": 200,
+              "Size": 15336,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-34-1737.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 1085,
+              "HttpStatus": 200,
+              "Size": 61204,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-34-884.webp"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 1083,
+              "HttpStatus": 200,
+              "Size": 3680,
+              "URL": "https://www.liquidlogic.co.uk/js/js.js?v=73"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 1081,
+              "HttpStatus": 200,
+              "Size": 1279,
+              "URL": "https://www.liquidlogic.co.uk/js/newsfeed.js?v=14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1052,
+              "HttpStatus": 200,
+              "Size": 55818,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-34-1736.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1048,
+              "HttpStatus": 200,
+              "Size": 9051,
+              "URL": "https://www.liquidlogic.co.uk/images/banner-overlay.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1046,
+              "HttpStatus": 200,
+              "Size": 4801,
+              "URL": "https://www.liquidlogic.co.uk/images/header-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1043,
+              "HttpStatus": 200,
+              "Size": 1110,
+              "URL": "https://www.liquidlogic.co.uk/images/search-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 15,
+              "EventId": 1040,
+              "HttpStatus": 200,
+              "Size": 98044,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1760.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 15,
+              "EventId": 1038,
+              "HttpStatus": 200,
+              "Size": 100556,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1807.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 968,
+              "HttpStatus": 200,
+              "Size": 136090,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1813.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 960,
+              "HttpStatus": 200,
+              "Size": 81536,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1818.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 958,
+              "HttpStatus": 200,
+              "Size": 69622,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1827.webp"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/font-woff",
+              "DownloadTime": 31,
+              "EventId": 954,
+              "HttpStatus": 200,
+              "Size": 98398,
+              "URL": "https://www.liquidlogic.co.uk/fonts/fa-solid-900.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/font-woff",
+              "DownloadTime": 31,
+              "EventId": 952,
+              "HttpStatus": 200,
+              "Size": 88444,
+              "URL": "https://www.liquidlogic.co.uk/fonts/fa-brands-400.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/font-woff",
+              "DownloadTime": 16,
+              "EventId": 949,
+              "HttpStatus": 200,
+              "Size": 27649,
+              "URL": "https://www.liquidlogic.co.uk/fonts/52ed7b2d-8a31-4b18-a1d5-8685608b0889.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/font-woff",
+              "DownloadTime": 47,
+              "EventId": 919,
+              "HttpStatus": 200,
+              "Size": 28356,
+              "URL": "https://www.liquidlogic.co.uk/fonts/332136cf-33d0-43fb-97ee-49c7742489ff.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/font-woff",
+              "DownloadTime": 47,
+              "EventId": 917,
+              "HttpStatus": 200,
+              "Size": 27187,
+              "URL": "https://www.liquidlogic.co.uk/fonts/0f51d8b8-bda2-4557-9b56-0a4e94ab63d9.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 915,
+              "HttpStatus": 200,
+              "Size": 50774,
+              "URL": "https://www.liquidlogic.co.uk/images/uploads/img-2-1756.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 909,
+              "HttpStatus": 200,
+              "Size": 27160,
+              "URL": "https://www.liquidlogic.co.uk/fonts/34fe82a2-19d9-4b63-8c8a-7860040b01fd.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 907,
+              "HttpStatus": 200,
+              "Size": 27124,
+              "URL": "https://www.liquidlogic.co.uk/fonts/efbaf613-e78b-4aed-bef6-b79bd8bedcdb.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 815,
+              "HttpStatus": 200,
+              "Size": 1294,
+              "URL": "https://www.liquidlogic.co.uk/js/jquery.matchHeight.min.js?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 790,
+              "HttpStatus": 200,
+              "Size": 125,
+              "URL": "https://www.liquidlogic.co.uk/js/stripey.js?v=6"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 779,
+              "HttpStatus": 200,
+              "Size": 19959,
+              "URL": "https://www.liquidlogic.co.uk/js/jquery.fancybox.min.js?v=5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 776,
+              "HttpStatus": 200,
+              "Size": 1810,
+              "URL": "https://www.liquidlogic.co.uk/js/imagesloaded.pkgd.min.js?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 769,
+              "HttpStatus": 200,
+              "Size": 10508,
+              "URL": "https://www.liquidlogic.co.uk/js/slick.min.js?v=7"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 739,
+              "HttpStatus": 200,
+              "Size": 9847,
+              "URL": "https://www.liquidlogic.co.uk/js/isotope.min.js?v=2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 735,
+              "HttpStatus": 200,
+              "Size": 30682,
+              "URL": "https://www.liquidlogic.co.uk/js/jquery-3.4.1.min.js?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 733,
+              "HttpStatus": 200,
+              "Size": 3842,
+              "URL": "https://www.liquidlogic.co.uk/css/jquery.fancybox.css?v=5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 730,
+              "HttpStatus": 200,
+              "Size": 557,
+              "URL": "https://www.liquidlogic.co.uk/css/slick.css?v=6"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 727,
+              "HttpStatus": 200,
+              "Size": 12245,
+              "URL": "https://www.liquidlogic.co.uk/css/fontawesome.min.css?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 700,
+              "HttpStatus": 200,
+              "Size": 12499,
+              "URL": "https://www.liquidlogic.co.uk/css/default.css?v=1220"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 468,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 6873,
+              "URL": "https://www.liquidlogic.co.uk/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.179.227",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 1213,
+              "HttpStatus": 200,
+              "Size": 186,
+              "URL": "https://update.googleapis.com/service/update2/json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 932,
+              "HttpStatus": 200,
+              "Size": 1767,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=11:y-eMOe5vkFSqXZpiK4ypzsw3E_WB3ubXRdPpm4tfFTo&cup2hreq=b32e63191961b3e46425f4ee21af4f1a94b586e8a6d3cea86f4f3a5ef6d07ed7"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.16.234",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 912,
+              "HttpStatus": 200,
+              "Size": 1672,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTAyLjAuNTAwNS42MxopCAUQARobCg0IBRAGGAEiAzAwMTABEOH0DRoCGAOi044DIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCs5AoaAhgDk3jgciIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQn6wLGgIYAwP7hFAiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgDWbx0fSIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ0igaAhgDxwPXpSIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ7nEaAhgD0I4oMCIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEOMPGgIYAxEz0OIiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJm-ARoCGAM2fMtGIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARD4uAoaAhgDy0nuTyIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQtrsGGgIYAwrAzLUiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEKoSGgIYAyI9cYQiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.169.74",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1193,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCfQVFmhC_EsjEgUNZ2ez_hirqcoB?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.200.35",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 616,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=102"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.16.237",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.212.206",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1208,
+              "HttpStatus": 200,
+              "Size": 4,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1508945015&t=pageview&_s=1&dl=https%3A%2F%2Fwww.liquidlogic.co.uk%2F&ul=en-us&de=UTF-8&dt=Social%20Care%20Software%20%26%20IT%20System%20Suppliers%20%7C%20Liquidlogic%20UK&sd=24-bit&sr=1536x864&vp=1519x746&je=0&_u=IEBAAEABAAAAAC~&jid=922127454&gjid=435580398&cid=585599421.1654945001&tid=UA-105150164-1&_gid=1088951302.1654945001&_r=1&_slc=1&z=1724588182"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 1183,
+              "HttpStatus": 200,
+              "Size": 20006,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "fonts.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.17.225.78",
+          "IncludeInScript": true,
+          "Name": "fast.fonts.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 774,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://fast.fonts.net/t/1.css?apiType=css&projectid=5e886207-8b7b-4a3d-be80-9ae331ce15bb"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.73",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.73",
+          "IncludeInScript": true,
+          "Name": "192.168.1.73",
+          "Port": 60000,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/xml",
+              "DownloadTime": 328,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 896,
+              "URL": "http://192.168.1.73:60000/upnp/dev/00e91b8d-743c-3912-a302-2d1eb6bf14a6/desc"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.121",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.121",
+          "IncludeInScript": true,
+          "Name": "192.168.1.121",
+          "Port": 8008,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/xml",
+              "DownloadTime": 15,
+              "EventId": 630,
+              "HttpStatus": 200,
+              "Size": 82,
+              "URL": "http://192.168.1.121:8008/ssdp/device-desc.xml"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 2
+}

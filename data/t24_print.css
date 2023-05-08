@@ -1,0 +1,11 @@
+* {
+	-webkit-print-color-adjust: exact;
+}
+body {
+	font-size: 12pt;
+	font-family: arial, serif;
+	line-height: 140%;
+}
+.see-cms-toolbar {
+	display: none!important;
+}

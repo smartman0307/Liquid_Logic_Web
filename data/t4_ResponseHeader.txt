@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Thu, 02 Jun 2022 12:06:03 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: PrestaShop-a70b13a9d8837424f5b5551173e29129=def5020064e90bbf55852336766973a38ff7004787b7983406d920a9718bb6b86c844164d03ec0d74a4cd09a61aaafa0ddcc5133ea7893b20cf86cf24e781dd17b0691655c30bc7ed7c32967d3d005e53246f36e8b9b87e5c7bf7293421a2c88e939e7a9248c73a2625aeef3407f8136c28d33fb99fa49e19e728d6effb5647873d52b69bb40a5792316e14605800e8b837189e7ce7f0e50d2238eac20ac1ccec1a51e1924002d63a151b8580c4cfab0617bdad2aa3493e03d0d0e7bc7019dea790adf3102d6f7573c78f61bb406f714ae104e31; expires=Wed, 22-Jun-2022 12:06:04 GMT; Max-Age=1728000; path=/; domain=prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com; HttpOnly
+Vary: Accept-Encoding
+X-Robots-Tag: noindex, nofollow
+Content-Length: 1801
+Connection: keep-alive
+

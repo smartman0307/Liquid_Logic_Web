@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=cart&action=show
+Total=2
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_21-cart_default.jpg
+URL2=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/1/21-cart_default.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

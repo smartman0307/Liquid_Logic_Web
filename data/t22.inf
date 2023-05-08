@@ -1,0 +1,15 @@
+[t22]
+FileName1=t22.html
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+Total=3
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=t22_RequestBody.txt
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_device-desc.xml
+URL2=http://192.168.1.121:8008/ssdp/device-desc.xml
+FileName3=t22_desc.xml
+URL3=http://192.168.1.73:60000/upnp/dev/00e91b8d-743c-3912-a302-2d1eb6bf14a6/desc
+[ProtocolInfo]
+ProtocolId=QTWeb

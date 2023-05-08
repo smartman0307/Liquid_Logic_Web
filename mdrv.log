@@ -1,0 +1,36 @@
+Virtual User Script started at: 11-06-2022 12:14:48
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 for Windows 11; build 605 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sahana Saravanan\OneDrive\Desktop\Praga\LiquidLogic\LL_Browse_v01\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "LL_Browse_100_HomePage" started.
+Action.c(10): web_url("www.liquidlogic.co.uk") started  	[MsgId: MMSG-26355]
+Action.c(10): Notify: Parameter Substitution: parameter "p_url" =  "http://www.liquidlogic.co.uk"
+Action.c(10): Redirecting "http://www.liquidlogic.co.uk/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(10): To location "https://www.liquidlogic.co.uk/"  	[MsgId: MMSG-26693]
+Action.c(10): Detected non-resource "https://www.youtube.com/embed/cG8KEN5lndY" in "https://www.liquidlogic.co.uk/"  	[MsgId: MMSG-26574]
+Action.c(10): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(10): Registered web_reg_find successful for "Text=Liquid Logic" (count=3)  	[MsgId: MMSG-26364]
+Action.c(10): Notify: Saving Parameter "HomePage_count = 3".
+Action.c(10): web_url("www.liquidlogic.co.uk") highest severity level was "warning", 32904 body bytes, 5107 header bytes  	[MsgId: MMSG-26388]
+Action.c(30): Notify: Parameter Substitution: parameter "HomePage_count" =  "3"
+globals.h(20): Notify: Saving Parameter "transName = LL_Browse_100_HomePage".
+globals.h(24): Notify: Parameter Substitution: parameter "transName" =  "LL_Browse_100_HomePage"
+globals.h(24): Notify: Transaction "LL_Browse_100_HomePage" ended with a "Pass" status (Duration: 0.6622 Wasted Time: 0.0843).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 11940), ended OK."

@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19_generate_204.html
+URL1=http://www.gstatic.com/generate_204
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_19.xml
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

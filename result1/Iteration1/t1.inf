@@ -1,0 +1,17 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: www.liquidlogic.co.uk
+Total=2
+FileName1=t1.html
+FileName2=t1f0.html
+RequestHeaderFile=t1_RequestHeader.txt
+UseFrameIndex=1
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1654946088733
+FrameIndex2=0.0
+RawStepName=www.liquidlogic.co.uk
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1654946088145
+URL1=https://www.liquidlogic.co.uk/
+URL2=https://www.youtube.com/embed/cG8KEN5lndY

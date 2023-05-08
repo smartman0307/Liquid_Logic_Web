@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Application-URL: http://192.168.1.73:8009/apps/
+Content-type: application/xml
+Server: Linux/3.0.31 UPnP/1.0 Cling/2.0
+Access-Control-Allow-Origin: *
+Content-Length: 896
+Connection: keep-alive
+

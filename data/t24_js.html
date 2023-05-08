@@ -1,0 +1,411 @@
+( function() {
+    
+  /* eslint-disable */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-105150164-1', 'auto');ga('send', 'pageview');
+  /* eslint-enable */
+  /* eslint-disable space-in-parens */
+  /* eslint-disable strict */
+
+  $(document).ready(function(){
+
+    if( $('.fade .banner').length > 1  ){
+
+      $('.fade').slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: false
+      });
+
+    }
+
+    $('.fade').on('init', function(){
+      $(this).removeClass('slick-not-init')
+    })
+    
+    /* Simulate defer loading slick */
+    setTimeout(function() {
+      $('.slider').slick({});
+    }, 2500)
+
+    
+    
+  });
+
+  $(window)
+  .on( 'load', function() {
+    
+    $( 'input[id*="seeform"]' ).each( function() {
+      $( this ).val( $( this ).val().slice( 0, -1 ) );
+    });
+    
+  })
+  .on( 'resize', function() {
+    if($(window).width() >= 880) {
+      $('.mobile-nav ul').hide(0);
+      $('.mobile-nav .top').removeClass('open');
+    }
+  });
+
+  function getUrlParameter(name) {
+    name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[ 1 ].replace(/\+/g, ' '));
+  }
+    
+  $.customOpenfancybox = function( opts ) {
+    opts = $.extend( true, {
+      title: 'Message',
+      message: ''
+    }, opts || {} );
+
+    $.fancybox.open({
+      type: 'html',
+      src: '<div class="container"><h3>' + opts.title + '</h3>' + opts.message + '</div>',
+      opts: {
+        animationDuration: 300,
+        animationEffect: 'material',
+        modal: false,
+        baseTpl: '<div class="fancybox-container fc-container" role="dialog" tabindex="-1">' +
+          '<div class="fancybox-bg"></div>' +
+          '<div class="fancybox-inner">' +
+          '<div class="fancybox-stage"></div>' +
+          '</div>' +
+          '</div>',
+        afterClose: function(/* instance, current, e */) {
+          if( getUrlParameter( 'sent' ) ) {
+            window.location.href = './';
+          }
+        }
+      }
+    });
+  };
+
+  $( function() {
+    var undefined = void 0,
+    $d = $(document);
+
+    // $( ".newsfeedmain .newsstory" ).matchHeight({
+    //   byRow: true
+    // });
+    
+    $( '.newsfeedmain.newsfeedvirtualevents .newsstory' ).matchHeight( { byRow: true } );
+
+    $( '.greatplacetoworkbenefits .benefit' ).matchHeight( { byRow: true } );
+    $( '.socials .social' ).matchHeight( { byRow: true } );
+    $( '.healthandsocialintegration' ).matchHeight( { byRow: true } );
+
+    // $( '.stories .story' ).matchHeight( { byRow: true } );
+
+    $( '.trainingapproachdiagram .approach' ).on( 'click', function() {
+      var id = $( this ).attr( 'data-id' );
+      $( '.trainingapproachdiagram .approach' ).removeClass( 'selected' );
+      $( this ).addClass( 'selected' );
+      $( '.trainingapproachdiagram .approachtext' ).hide();
+      $( '.trainingapproachdiagram .approachtext[data-id=' + id + ']' ).show();
+      $( 'body, html' ).animate({
+        scrollTop: $('#approachestextsection').offset().top
+      }, 500);
+    });
+
+    $( '.allclickable' ).click(function() {
+      if( $(this).find( 'a.clicklink' ).attr( 'target' ) == '_blank' ) {
+        var link = $(this).find( 'a.clicklink' ).attr( 'href' );
+        window.open( link, '_blank');
+      }
+      else {
+        window.location = $(this).find('a.clicklink').attr('href');
+      }
+      return false;
+    });
+
+    // // Moved to  newsfeed.js
+    // // // Isotope
+    // var isotopePostType, isotopeNumResults = 0, initialIsotopeLimit = 6, isotopeLimit = initialIsotopeLimit,
+    // $grid = $('.newsfeedmain-inner')
+    // .on( 'arrangeComplete', function( e, filteredItems ) { // NOTE must be before isotope
+      
+    //   $( filteredItems.map( function( i ) { return i.element; } ) )
+    //   .css( 'height', 'initial' ) // Reset after previous matchHeight
+    //   .matchHeight({
+    //     byRow: true
+    //   } );
+
+    // } )
+    // .isotope( {
+    //   itemSelector: '.newsstory',
+    //   layoutMode: 'fitRows',
+    //   filter: function() {
+    //     var $this = $(this),
+    //     res = ( isotopePostType ? $this.hasClass( isotopePostType ) : true );
+    
+    //     if( res ) {
+    //       isotopeNumResults++; // Make sure to reset this before filterIsotope() is called
+    //       $this.addClass( 'searchresult' );
+          
+    //       if( isotopeNumResults > isotopeLimit ) {
+    //         res = false;
+    //       }
+          
+    //     }
+    //     else {
+    //       $this.removeClass( 'searchresult' );
+    //     }
+    
+    //     return res;
+    //   }
+    // });
+
+    // // bind filter button click
+    // $('.newsfilter .filteroptions').on( 'click', '.button', function() {
+    //   var $this = $(this);
+
+    //   // Toggle selected
+    //   if( $this.hasClass( 'selected' ) ) {
+    //     $this.removeClass( 'selected' );
+    //     isotopePostType = undefined;
+    //   }
+    //   else {
+    //     $this.parents( '.button-group' ).find( '.selected' ).removeClass( 'selected' );
+    //     $this.addClass( 'selected' );
+    //     isotopePostType = $this.data( 'filter' );
+    //   }
+
+
+    //   isotopeLimit = initialIsotopeLimit; // Reset limit#
+    //   isotopeNumResults = 0; // Reset
+    //   // debugger;
+
+    //   $grid.isotope( 'arrange' );
+
+    //   console.log( $grid.data( 'isotope' ).filteredItems.length, isotopeNumResults )
+    //   if( $grid.data( 'isotope' ).filteredItems.length ) {
+    //     $('.noresults').hide();
+
+    //     if( isotopeNumResults > isotopeLimit ) { // numResults includes the matched results which are hidden
+    //       $('.loadmore').show();
+    //     }
+    //     else {
+    //       $('.loadmore').hide();
+    //     }
+
+    //   }
+    //   else {
+    //     $('.noresults').show();
+    //     $('.loadmore').hide();
+    //   }
+
+    // });
+
+    // $('.loadmore').on('click',function(e) {
+    //   e.preventDefault();
+    //   isotopeLimit += initialIsotopeLimit;
+    //   isotopeNumResults = 0; // Reset
+    //   $grid.isotope( 'arrange' );
+    // });
+
+    // Careers - stories page
+    $( '.stories .story' ).on( 'click', '.arrowbutton a', function( e ) {
+      e.preventDefault();
+
+      if( $( this ).parents( '.story' ).hasClass( 'open' ) ) {
+        $( this ).parents( '.story' ).removeClass( 'open' );
+        $( this ).text( 'Read full story' );
+      }
+      else {
+        $( '.stories .story' ).removeClass( 'open' );
+        $( '.stories .story .arrowbutton a' ).text( 'Read full story' );
+        $( this ).parents( '.story' ).addClass( 'open' );
+        $( this ).text( 'Close' );
+      }
+    });
+
+    $( '.stories .story' ).on( 'click', 'h4', function( e ) {
+      e.preventDefault();
+
+      if( $( this ).parents( '.story' ).hasClass( 'open' ) ) {
+        $( this ).parents( '.story' ).removeClass( 'open' );
+        $( this ).siblings( '.arrowbutton' ).children( 'a' ).text( 'Read full story' );
+      }
+      else {
+        $( '.stories .story' ).removeClass( 'open' );
+        $( '.stories .story .arrowbutton a' ).text( 'Read full story' );
+        $( this ).parents( '.story' ).addClass( 'open' );
+        $( this ).siblings( '.arrowbutton' ).children( 'a' ).text( 'Close' );
+      }
+    });
+
+    $('select#howdidyouhearaboutus').on( 'change', function() {
+      if( $(this).val() == 'Other' ) {
+        $('#other').show();
+      }
+      else {
+        $('#other').hide();
+      }
+    });
+
+    if( $('.greatplacetoworkimages .images .image').length > 1  ){
+      $('.greatplacetoworkimages .images').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        pauseOnFocus: false
+      });
+    }
+
+    // CW - Doesn't look like in use anymore?
+    // $('.logofade').slick({
+    //   dots: true,
+    //   arrows: false,
+    //   infinite: false,
+    //   speed: 500,
+    //   fade: true,
+    //   cssEase: 'linear',
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    //   autoplay: true,
+    //   autoplaySpeed: 2000
+    // });
+
+    if( getUrlParameter( 'sent' ) ) {
+      $.customOpenfancybox({
+        title: 'Thank you',
+        message: '<p>Your details have been sent, and we will be in touch shortly</p>'
+      });
+    }
+
+    
+    /* SECTION TABS */
+    $('.diagram a.section').hover(function() {
+      var id = $(this).attr('data-id');
+      $('.diagramtext .text').hide();
+      $(this).addClass('hover');
+      $('.diagramtext .text[data-id=' + id + ']').fadeIn(200);
+      return false;
+    }, function() {
+      $('.diagramtext .text').hide();
+    });
+    /* END OF SECTION TABS */
+    
+    /* START: MOBILE NAV SLIDER */
+    $d.on('click', '.mobile-nav .top', function() {
+      $('.mobile-nav > ul').slideDown(200);
+      $(this).addClass('open');
+      return false;
+    });
+    $d.on('click', '.mobile-nav .top.open', function() {
+      $('.mobile-nav > ul').slideUp(200);
+      $(this).removeClass('open');
+      return false;
+    });
+
+    $('.expand').on('click touchmove', function() {
+      if($(this).hasClass('expanded')) {
+        $(this).parent().children('ul').slideUp(300);
+        $(this).removeClass('expanded');
+      }
+      else {
+        $(this).parent().children('ul').slideDown(300);
+        $(this).parent().siblings().children('ul').slideUp(300);
+        $(this).addClass('expanded');
+        $(this).parent().siblings().children('.expand').removeClass('expanded');
+      }
+    });
+    /* END: MOBILE NAV SLIDER */
+
+    $d.on('click', '.newsarchive p a', function( e ) {
+      e.preventDefault();
+      var $this = $(this);
+
+      if( $this.hasClass( 'open' ) ) {
+        $('.newsarchive .list').fadeOut( 200 );
+        $this.removeClass( 'open' );
+      }
+      else {
+        $('.newsarchive .list').fadeIn( 200 );
+        $this.addClass( 'open' );
+      }
+
+    });
+
+    if( !getUrlParameter('preview') ) {
+      $( '.circleimage.spottedbackground' ).each(function() {
+        $(this).wrap( "<div class='spottedbackgroundwrap'></div>" );
+      });
+
+      $( '.home .content .col1 a' ).each(function() {
+        $(this).append( '<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>' );
+      });
+    }
+
+    /* file preview */
+    $('#files').on('change', function(e) {
+      var item = e.currentTarget;
+      var files = item.files;
+      var file;
+      var filelist = '';
+      
+      if( files.length ) {
+        $('.preview-files').show();
+        for(var i = 0; i < files.length; i++) {
+          var file = files[ i ];
+          filelist += '<p style="word-wrap:break-all;font-size:90%;">' + file.name + '</p>';
+        }
+
+        $('.preview-files .inner').html( filelist );
+      }
+    });
+    /* file preview */
+
+    $('.getDirections').on('click', function(e) {
+      e.preventDefault();
+      var location;
+
+      if( $('.directionPostcode').val() == 'Current Location' && currentLocation ) {
+
+        if( $('.directionPostcode').length ) {
+
+          if( !navigator.geolocation) {
+            x.innerHTML = 'Geolocation is not supported by this browser.';
+          }
+          else if(navigator.userAgent.match(/Mobi/)) {
+            navigator.geolocation.getCurrentPosition( function( position ) {
+              currentLocation = position.coords.latitude + ',' + position.coords.longitude;
+            } );
+          }
+        
+        }
+
+        location = currentLocation;
+      }
+      else {
+        location = $('.directionPostcode').val();
+      }
+
+      window.open( 'https://maps.google.co.uk/maps?saddr=' + location + '&daddr=Brookfield+House,+Selby+Road,+Leeds,+LS25+1NB', '_blank' );
+      
+      return false;
+    });
+
+    if(navigator.userAgent.match(/Mobi/)) {
+      $('.directionPostcode').val( 'Current Location' );
+    }
+
+  });
+} )();

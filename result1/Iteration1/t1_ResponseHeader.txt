@@ -1,0 +1,18 @@
+HTTP/2.0 200
+Status: 200
+x-powered-by: SeeCMS
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: sameorigin
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+content-security-policy: default-src 'self' 'nonce-EzrCiW+aSNRJwJX4ZGtGTv9DaH+tYIx6mxBXUzOZ24K7r/qB0EduF62IKcEwTaESa6qQa3C2TbisGALjY084QQ==' blob: https://www.google-analytics.com https://static.doubleclick.net https://www.google.com https://googleads.g.doubleclick.net https://use.fontawesome.com https://fast.fonts.net https://cdn.lr-ingest.io https://r.lr-ingest.io https://www.googletagmanager.com; script-src 'self' 'nonce-EzrCiW+aSNRJwJX4ZGtGTv9DaH+tYIx6mxBXUzOZ24K7r/qB0EduF62IKcEwTaESa6qQa3C2TbisGALjY084QQ==' blob: https://www.google-analytics.com https://static.doubleclick.net https://www.google.com https://googleads.g.doubleclick.net https://use.fontawesome.com https://fast.fonts.net https://cdn.lr-ingest.io https://r.lr-ingest.io https://www.googletagmanager.com; frame-src https://youtube.com https://www.youtube.com https://www.google.com https://e.issuu.com https://pingback.issuu.com https://www.googletagmanager.com; object-src 'none'; style-src https: 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 6879
+content-type: text/html; charset=UTF-8
+date: Sat, 11 Jun 2022 11:14:48 GMT
+server: Apache/2.4.50 (codeit) OpenSSL/1.1.1l PHP/7.3.31
+

@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.liquidlogic.co.uk",
+                "infFile": "t1.inf",
+                "time": 1654946088776
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "LL_Browse_100_HomePage",
+                "rawStartTime": 1654946088129,
+                "rawEndTime": 1654946088791,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08432745933532715
+            }
+        ]
+    }
+]

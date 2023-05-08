@@ -1,0 +1,13 @@
+[hosts]
+prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com=
+clientservices.googleapis.com=
+192.168.1.121=
+192.168.1.73=
+content-autofill.googleapis.com=
+update.googleapis.com=
+safebrowsing.googleapis.com=
+www.gstatic.com=
+accounts.google.com=
+www.liquidlogic.co.uk=
+fast.fonts.net=
+www.google-analytics.com=

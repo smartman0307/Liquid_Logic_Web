@@ -1,0 +1,18 @@
+POST /j/collect?v=1&_v=j96&a=1508945015&t=pageview&_s=1&dl=https%3A%2F%2Fwww.liquidlogic.co.uk%2F&ul=en-us&de=UTF-8&dt=Social%20Care%20Software%20%26%20IT%20System%20Suppliers%20%7C%20Liquidlogic%20UK&sd=24-bit&sr=1536x864&vp=1519x746&je=0&_u=IEBAAEABAAAAAC~&jid=922127454&gjid=435580398&cid=585599421.1654945001&tid=UA-105150164-1&_gid=1088951302.1654945001&_r=1&_slc=1&z=1724588182 HTTP/1.1
+Host: www.google-analytics.com
+Connection: keep-alive
+Content-Length: 0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Content-Type: text/plain
+Accept: */*
+Origin: https://www.liquidlogic.co.uk
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.liquidlogic.co.uk/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

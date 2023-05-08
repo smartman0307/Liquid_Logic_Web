@@ -1,0 +1,13 @@
+[t15]
+FileName1=t15.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order-confirmation&id_cart=19989&id_module=30&id_order=2068&key=32730d1fd1420f71fba779ad6211430c
+Total=2
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_7a3ebca0cba2e2c6090e84e1d77e0f94.html
+URL2=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/7a3ebca0cba2e2c6090e84e1d77e0f94.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

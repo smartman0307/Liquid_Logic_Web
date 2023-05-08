@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=authentication&back=my-account
+Total=1
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

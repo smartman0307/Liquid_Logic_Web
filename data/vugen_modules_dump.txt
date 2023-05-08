@@ -1,0 +1,363 @@
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VuGen.exe
+		10.0.22000.653 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntdll.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MSCOREE.DLL
+		10.0.22000.675 (WinBuild.160101.0800)C:\WINDOWS\System32\KERNEL32.dll
+		10.0.22000.675 (WinBuild.160101.0800)C:\WINDOWS\System32\KERNELBASE.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\ADVAPI32.dll
+		7.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\msvcrt.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\sechost.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\RPCRT4.dll
+		4.8.4341.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\SHLWAPI.dll
+		10.0.22000.71 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\VERSION.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\USER32.dll
+		10.0.22000.37 (WinBuild.160101.0800)C:\WINDOWS\System32\win32u.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\GDI32.dll
+		10.0.22000.675 (WinBuild.160101.0800)C:\WINDOWS\System32\gdi32full.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\msvcp_win.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\ucrtbase.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\VCRUNTIME140_CLR0400.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\ucrtbase_clr0400.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\IMM32.DLL
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\mscorlib\a403a0b75e95c07da2caa7f780446a62\mscorlib.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\ole32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\combase.dll
+		10.0.22000.376 (WinBuild.160101.0800)C:\WINDOWS\System32\bcryptPrimitives.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\uxtheme.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\OLEAUT32.dll
+		4.8.4488.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System\20aee98e8f5872b1a9c98ca3f6cc8435\System.ni.dll
+		4.8.4395.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Drawing\7e8e0e796c6c7f36a5d1f9b4086caca2\System.Drawing.ni.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\2a0290ba8e9bdffb0894c8543a5ec221\System.Windows.Forms.ni.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Core\a55a6b055ebaabfd49894ecbd1badf29\System.Core.ni.dll
+		4.8.4341.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Servf73e6522#\0d0e3838172f29439f0da09c3b45e6cd\System.ServiceModel.Web.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\rsaenh.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\bcrypt.dll
+		4.8.4455.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.ServiceModel\ae0be2b502a5932b852802efb36f103d\System.ServiceModel.ni.dll
+		10.0.22000.593 (WinBuild.160101.0800)C:\WINDOWS\System32\shell32.dll
+		10.0.22000.184 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.storage.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\wintypes.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\SHCORE.dll
+		4.8.4341.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Configuration\54d37333d475e6c58f1dbff20161e5c2\System.Configuration.ni.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml\144b3acd7fc576ff853538a84c22900c\System.Xml.ni.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsBase\489b9c81f7ffbcac7425b4f10ef4e995\WindowsBase.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\profapi.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\PresentationCore\259781a6116570aa0da8d5400ff3d87e\PresentationCore.ni.dll
+		5.82 (WinBuild.160101.0800)   C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.22000.1_none_6ec7c6847ea94424\comctl32.dll
+		4.8.4515.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio5ae0f00f#\57abdda026db5919db3f268f525ad56c\PresentationFramework.ni.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xaml\742af7b238761b77ecab9d5955a8c0bd\System.Xaml.ni.dll
+		10.0.22000.675 (WinBuild.160101.0800)C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.22000.675_none_1631a6712776d946\gdiplus.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DWrite.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\MSCTF.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\wpfgfx_v0400.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\WINDOWS\SYSTEM32\MSVCP140_CLR0400.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationNative_v0400.dll
+		2.0.12.0                      C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\log4net\6a2a3b92431262fa6f292494961a3721\log4net.ni.dll
+		2001.12.10941.16384 (WinBuild.160101.0800)C:\WINDOWS\System32\clbcatq.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\RegistryUtil.dll
+		14.29.30037.0 built by: vcwrkspcC:\WINDOWS\SYSTEM32\mfc140.dll
+		14.29.30135.0 built by: vcwrkspcC:\WINDOWS\SYSTEM32\VCRUNTIME140.dll
+		                              C:\WINDOWS\System32\TextShaping.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Numerics\85a8875619db54867e7b9a26c0e322e2\System.Numerics.ni.dll
+		10.0.22000.653 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecs.dll
+		4.8.4455.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\d87335d631a7e8504954f3a2767d45b4\System.Runtime.Serialization.ni.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\d6cf107256839dac4422090d208d75f5\System.Xml.Linq.ni.dll
+		4.8.4455.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data\8e9bd683ea0380d3623b92ec6ac41d9f\System.Data.ni.dll
+		4.8.4455.0 built by: NET48REL1LAST_CC:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\WS2_32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\CRYPT32.dll
+		10.0.22000.282 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\textinputframework.dll
+		10.0.22000.71 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+		10.0.22000.132                C:\WINDOWS\SYSTEM32\CoreUIComponents.dll
+		7.2.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\Oleacc.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Accessibility\79ef5abbf004a2553042fa55d89604b2\Accessibility.ni.dll
+		6.10 (WinBuild.160101.0800)   C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_e541a94fcce8ed6d\comctl32.dll
+		11.00.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\urlmon.dll
+		10.0.22000.613 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\srvcli.dll
+		10.0.22000.434 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\netutils.dll
+		11.00.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\iertutil.dll
+		10.0.22000.556 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\SspiCli.dll
+		7.0.22000.184 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\PROPSYS.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\DPAPI.dll
+		4.8.4341.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Security\5db7c8476fa3bcc0b31f01a3962cc544\System.Security.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\IconCodecService.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsForm0b574481#\9c081d241a059247e8e38f164ee5a2e4\WindowsFormsIntegration.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DWMAPI.dll
+		10.0.22000.120 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d9.dll
+		10.0.22000.653 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dxcore.dll
+		8.17.10.1690                  C:\Windows\System32\DriverStore\FileRepository\u0369254.inf_amd64_6f1e9c11bbc40f12\B369275\aticfx32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINMM.dll
+		8.14.01.6564                  C:\Windows\System32\DriverStore\FileRepository\u0369254.inf_amd64_6f1e9c11bbc40f12\B369275\atiu9pag.dll
+		9.14.10.01494                 C:\Windows\System32\DriverStore\FileRepository\u0369254.inf_amd64_6f1e9c11bbc40f12\B369275\atiumdag.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dbghelp.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dbgcore.DLL
+		8.14.10.0739                  C:\WINDOWS\System32\DriverStore\FileRepository\u0369254.inf_amd64_6f1e9c11bbc40f12\B369275\atiumdva.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\POWRPROF.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\UMPDC.dll
+		2,00,00,1788                  C:\WINDOWS\SYSTEM32\amdihk32.dll
+		10.0.22000.653 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntmarta.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatioaec034ca#\f58828b58c4d78565b00a9e2ac9f12f9\PresentationFramework.Aero2.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\mscms.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecsExt.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\dataexchange.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\twinapi.appcore.dll
+		1.0.992.28                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebView2Loader.dll
+		94.0.992.31                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebView2Runtime\EBWebView\x86\EmbeddedBrowserWebView.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\sxs.dll
+		2022.0.0.306                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\RecentScripts.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\PSAPI.DLL
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mosifs32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USERENV.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wrapicu.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\thrdutil.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icuuc69.dll
+		14.29.30135.0 built by: vcwrkspcC:\WINDOWS\SYSTEM32\MSVCP140.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icudt69.dll
+		4.8.4494.0 built by: NET48REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Web\12160403df9e942d36ef52c38324b316\System.Web.ni.dll
+		4.8.4494.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\webengine4.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\mswsock.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\snapshotloaderwrap.dll
+		14.2.3792.0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ViewerGen.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\atlthunk.dll
+		11.00.22000.1 (WinBuild.160101.0800)C:\Windows\System32\ieframe.dll
+		10.0.22000.653 (WinBuild.160101.0800)C:\Windows\System32\NETAPI32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\WINHTTP.dll
+		10.0.22000.613 (WinBuild.160101.0800)C:\Windows\System32\WKSCLI.DLL
+		11.00.22000.593 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msIso.dll
+		11.00.22000.1 (WinBuild.160101.0800)C:\Windows\System32\mshtml.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\DiagnosticDataSettings.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationProvider\8f9c9c6587df64a23b28a315ebc70523\UIAutomationProvider.ni.dll
+		11.00.22000.1 (WinBuild.160101.0800)C:\Windows\System32\WININET.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\srpapi.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WLDP.DLL
+		20.3.0.121                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ielpview.dll
+		20.3.0.121                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\AsmHook.dll
+		20.3.0.121                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VirFileSystemMng.dll
+		20.3.0.121                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VirPrivateProfiles.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\msimtf.dll
+		3.10.349.0                    C:\Windows\System32\msls31.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\d2d1.dll
+		10.0.22000.593 (WinBuild.160101.0800)C:\Windows\System32\dxgi.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MsftEdit.DLL
+		10.0.22000.653 (WinBuild.160101.0800)C:\Windows\System32\d3d11.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d10warp.dll
+		10.0.22000.675 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\Secur32.dll
+		10.0.22000.348 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MLANG.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\UIAutomationTypes\bbfe3874ecc19872fc63a947e7d31e6e\UIAutomationTypes.ni.dll
+		7.2.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\UIAutomationCore.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\appresolver.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\LINKINFO.dll
+		10.0.22000.527 (WinBuild.160101.0800)C:\Windows\System32\Windows.FileExplorer.Common.dll
+		10.0.22000.65 (WinBuild.160101.0800)C:\Windows\System32\Windows.StateRepositoryPS.dll
+		10.0.22000.65 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll
+		10.0.22000.71 (WinBuild.160101.0800)C:\Windows\System32\Bcp47Langs.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\apphelp.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\NetworkExplorer.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntshrui.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\cscapi.dll
+		10.0.22000.593 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\policymanager.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msvcp110_win.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio1c9175f8#\98397aebe63e148ae22d238ef7f4bbdd\PresentationFramework.Aero.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\wtsapi32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINSTA.dll
+		4.8.4515.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\penimc2_v0400.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\wisp.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Program Files (x86)\Common Files\Microsoft Shared\Ink\tpcps.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\msctfui.dll
+		10.0.22000.184 (WinBuild.160101.0800)C:\WINDOWS\system32\explorerframe.dll
+		10.0.22000.593 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rasapi32.dll
+		                              C:\WINDOWS\SYSTEM32\prxyqry.DLL
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rtutils.dll
+		10.0.22000.593 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\RASMAN.DLL
+		10.0.22000.653 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\D3DCOMPILER_47.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\NSI.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DNSAPI.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINNSI.DLL
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\rasadhlp.dll
+		10.0.22000.258 (WinBuild.160101.0800)C:\WINDOWS\System32\fwpuclnt.dll
+		10.0.22000.348 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dcomp.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.Globalization.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\globinputhost.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\avrt.dll
+		14.8.4161.0 built by: NET48REL1C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\schannel.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\mskeyprotect.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\NTASN1.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ncrypt.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\ncryptsslp.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\MSASN1.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.Build\4ecb1ed7a882943703a1dcfbff8d28f2\Microsoft.Build.ni.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.B3325a29b#\78de923017314f82a5ed6b1fe6feb4ee\Microsoft.Build.Framework.ni.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ArchiveManager.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\coparamui.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\PathResolver.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramui.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MPR.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dtable32.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\is32.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\parameng.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mlib_ds.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lr_vug32.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\msg_handler.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\config.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libxdrutil.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\run_time_context.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\inifile.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\runlogic.dll
+		24, 3, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\BCGCBPRO2430140.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\vusercfg.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\MultiVuser.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\COMDLG32.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\xdr.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\comm_util.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+		10.0.22000.469 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ODBC32.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\rtc_protocol.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msimg32.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramlr.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramtbl.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mmdtable.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libmemmap.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mmdbigtable.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramcst.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramunq.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramfnc.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramss.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramdte.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramvar.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\paramrnd.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\runlogicview.ocx
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ParamUINotification.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HP.LR.VuGen.ScriptHandlerComWrapper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrscripthandler.DLL
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\webscripthandler.DLL
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebStepClsDesign.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebStepClsShared.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mshtmtr.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DynWininet.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wraplwcrypto.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LrXmlScriptHandler.DLL
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ReplayBinaryUtils32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WSOCK32.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\websteps_scripthandler.DLL
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\base_scripthandler.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\RICHED32.DLL
+		5.31.23.1231                  C:\WINDOWS\SYSTEM32\RICHED20.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USP10.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebUIRes.DLL
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\webservice_scripthandler.DLL
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ServiceManagementLight.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WSDLSDK.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebServicesSDK.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\SoapRecordFilter.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\XmlParserInterface.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WsJniUtil.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WSDLParser.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WSDLUtilsU.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WsCommonLogger.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ConfigurationUtil.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HttpUtils.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mic_regex.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\xerces-c_3_2.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Xalan-C_1_12.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\java_search.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\MicXMLDiffTool.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WSDLToolkits.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\XalanMessages_1_12.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icuin69.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\soap_scripthandler.DLL
+		4.8.4161.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.CSharp\281667813462a86db3b813a49a582dba\Microsoft.CSharp.ni.dll
+		4.8.4161.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Dynamic\30ee3cb101a3bc7a12f048f709f1350c\System.Dynamic.ni.dll
+		0.28.4                        C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lib\win32\x86\git2-106a5f2.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\system32\Ninput.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HP.LR.VuGen.LrVugHelper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\TextContainer.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\System32\coml2.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.ApplicationModel.dll
+		4.8.4161.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runtbff93e24#\bf10cfd14873e5551f21d07cac3549d0\System.Runtime.InteropServices.WindowsRuntime.ni.dll
+		4.8.4161.0 built by: NET48REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runt0d283adf#\0185f84875cc1c275ef372022262ace4\System.Runtime.WindowsRuntime.ni.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\twinapi.dll
+		10.0.22000.65 (WinBuild.160101.0800)C:\Windows\System32\ActXPrxy.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\edputil.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\VAULTCLI.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\vugen_record_api.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\insp_gen.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\inspdll.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\pefile.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\script_language_helper.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HTTPSnapshotsWrapper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\api_scrinfo.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wrapzlib.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Api_Filter_Helper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\unknown_only_helper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\type_info_pool.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\CodeGenerationAPI.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\InternalSDKUtils.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LRSDKUtilities.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebEventTrafficMap.dll
+		1.1.1l                        C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libcrypto-lt-1_1.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VuGenCallback.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\traffic_filter.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\pcre-8.44.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ipng_utils.dll
+		1.1.1l                        C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libssl-lt-1_1.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\duktape.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrun50.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\trans.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\merc_uuid.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\faserver.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\JsonParser.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lr_exp.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\trans_server.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libdatatypes.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\data_types_ifs.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\timediff_ext.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\jrequestor_srv.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dc_requests.dll
+		2022.0.0.131                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\threadsafefileoperator.dll
+		20.3.0.121                    C:\Program Files (x86)\Micro Focus\LoadRunner\bin\TulipAppInfo.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\JsonParserWrapper.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\MicSocket.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\api_inspector.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\trpfnc32.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\Windows\System32\cryptui.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrc_basic_filters.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\api_event_parser.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\api_sock_filter.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebDataFormatsCodeGen.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DataFormatsEngine.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebSnapshotsCommon.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebSocketFilter.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VnpLog.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VnpUtils.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebHTMLCodeGen.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebRecorder.dll
+		2.9.0                         C:\Program Files (x86)\Micro Focus\LoadRunner\bin\cpprest140_2_9.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\boost_filesystem-vc140-mt-x32-1_69.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LrwiWebInfra.dll
+		10.0.22000.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\HTTPAPI.dll
+		14.29.30135.0 built by: vcwrkspcC:\WINDOWS\SYSTEM32\CONCRT140.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebCorrelation.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\jconv_str.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LrwiStreamingParser.dll
+		2022.0.0.513                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\http_auth.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LrXml.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\LrJson.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\VnpReport.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\boost_system-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\boost_filesystem-vc140-mt-1_60.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebConvertFromFormattedFilter.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebConvertFromFormattedPostFilter.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebExtractServerNameFilter.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrc_com_filters.dll
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\WebRemoveLongBodyFilter.DLL
+		2022.0.0.605                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrc_code_gen_filter.dll

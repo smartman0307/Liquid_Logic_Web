@@ -1,0 +1,11 @@
+GET /index.php?controller=cart&action=show HTTP/1.1
+Host: prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?id_product=2&rewrite=brown-bear-printed-sweater&controller=product&id_lang=1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: AWSELB=4123DB5D1AB5FC87AA4E730AA6548CCC105B01482B4A0B82D563078AFFEC136BD16A3F3DD369C60AF7B989BA470D7055F38A17B31E254F6CD41022F39FD1DAAC9AB87144EC; PHPSESSID=aphtgmbv83jqukh97n2b9inoq2; PrestaShop-a70b13a9d8837424f5b5551173e29129=def5020064e90bbf55852336766973a38ff7004787b7983406d920a9718bb6b86c844164d03ec0d74a4cd09a61aaafa0ddcc5133ea7893b20cf86cf24e781dd17b0691655c30bc7ed7c32967d3d005e53246f36e8b9b87e5c7bf7293421a2c88e939e7a9248c73a2625aeef3407f8136c28d33fb99fa49e19e728d6effb5647873d52b69bb40a5792316e14605800e8b837189e7ce7f0e50d2238eac20ac1ccec1a51e1924002d63a151b8580c4cfab0617bdad2aa3493e03d0d0e7bc7019dea790adf3102d6f7573c78f61bb406f714ae104e31
+
